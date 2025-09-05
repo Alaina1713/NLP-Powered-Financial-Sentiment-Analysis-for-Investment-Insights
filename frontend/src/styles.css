@@ -1,0 +1,73 @@
+/* Font & base */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f8fafc;
+  color: #1f2937;
+  margin: 0;
+}
+
+/* Scrollbar for news list */
+ul::-webkit-scrollbar {
+  width: 8px;
+}
+ul::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+ul::-webkit-scrollbar-thumb {
+  background: #a5b4fc;
+  border-radius: 4px;
+}
+ul::-webkit-scrollbar-thumb:hover {
+  background: #6366f1;
+}
+
+/* Card gradients */
+.bg-gradient-card {
+  background: linear-gradient(135deg, #f0f9ff, #eff6ff);
+}
+
+/* Buttons */
+button {
+  transition: all 0.25s ease;
+}
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h1, h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+}
+
+/* Input & textarea focus */
+input:focus, textarea:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99,102,241,0.2);
+  outline: none;
+}
+
+/* Cards */
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+/* Footer */
+footer {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
