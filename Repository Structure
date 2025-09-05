@@ -1,0 +1,20 @@
+Financial-Sentiment-Analysis/
+├─ backend/
+│  ├─ app.py
+│  ├─ nlp_model.py
+│  ├─ requirements.txt
+│  └─ data/
+│      ├─ financial_news.csv
+│      └─ stock_prices.csv
+├─ frontend/
+│  ├─ public/
+│  │   └─ index.html
+│  ├─ src/
+│  │   ├─ App.jsx
+│  │   ├─ SentimentForm.jsx
+│  │   ├─ SentimentDashboard.jsx
+│  │   ├─ index.js
+│  │   └─ styles.css
+│  └─ package.json
+├─ README.md
+└─ .gitignore
