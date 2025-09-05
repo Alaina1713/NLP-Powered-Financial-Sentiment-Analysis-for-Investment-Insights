@@ -1,0 +1,29 @@
+# Core backend framework
+flask==3.0.2
+
+# CORS handling for frontend-backend communication
+flask-cors==4.0.0
+
+# Data handling & analysis
+pandas==2.2.1
+numpy==1.26.4
+
+# Machine Learning & NLP
+scikit-learn==1.4.1.post1
+nltk==3.8.1
+textblob==0.17.1
+
+# Visualization (optional if you want server-side plots)
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# For REST APIs & JSON responses
+requests==2.31.0
+
+# Why these packages?
+- Flask + flask-cors → REST API server for your sentiment model.
+- Pandas & NumPy → process financial news & reports.
+- Scikit-learn → train/test the sentiment classifier (~87% accuracy as you mentioned).
+- NLTK + TextBlob → NLP preprocessing, tokenization, sentiment scoring fallback.
+- Matplotlib + Seaborn → optional but nice if you want server-side sentiment plots.
+- Requests → handy for testing API endpoints.
